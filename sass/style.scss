@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background: url('../images/background.jpg') repeat center center fixed; 
+    background-size: cover; 
+    padding-left: 15%;
+    padding-right: 15%;   
+}
+ul{
+    display: flex;
+    justify-content: end;
+    @media only screen and (max-width: 992px ){
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0 !important;
+    }
+    @media only screen and (max-width: 576px ){
+        display: flex;
+        justify-content: space-between;
+        padding-left: 0 !important;
+        }
+}
+li {
+    list-style: none;
+    margin: 0;
+    padding: 5px;
+    a{      
+        text-decoration: none;
+        color: black;        
+    }
+  }
+  span{
+    color: orange;
+  }
+#parag-1{
+    text-align: end;
+    padding-right: 5px;
+    font-size: 20px;
+
+    @media only screen and (max-width: 992px ){
+        text-align: start;
+        padding: 0;
+    }
+    @media only screen and (max-width: 576px ){
+        text-align: start;
+        padding: 0;
+    }
+  }
+#logo{
+    @media only screen and (max-width: 992px ){
+        justify-content: center;
+        display: flex;  
+    }
+    @media only screen and (max-width: 576px ){
+        justify-content: center;
+        display: flex;  
+    }
+  }
+#parag-0{
+    font-size: 20px;
+    width: 300px;
+  }
+.parag0{
+    @media only screen and (max-width: 992px ){
+        justify-content: center;
+        display: flex;
+        text-align: center;
+    }
+    @media only screen and (max-width: 576px ){
+        justify-content: center;
+        display: flex;
+        text-align: center;
+    }
+  }
+// footer{
+//     padding-top: 2%;  
+//     padding-bottom: 2%; 
+//     padding-left: 15%;
+//     padding-right: 15%;
+//     background-color: dimgray;
+//     text-align: center;
+//     color: white;
+
+//     .icons {
+//             display: inline-block;
+//             margin-bottom: 20px;
+//             a{
+//                 padding: 30px;
+//                 img {
+//                     transform: scale(0.8);
+//                 }
+//             }
+//         }
+//   }
+
+// hr{
+//     border: 5px solid white;
+// }
+
+  
