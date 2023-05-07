@@ -5,7 +5,16 @@
 }
 
 body {
-  background-color: #fafafa !important;
+  background-color: black important;
+}
+body .container {
+  background-color: #fafafa;
+}
+
+section button {
+  background-color: #000;
+  color: white;
+  width: 140px;
 }
 
 .header {
@@ -46,6 +55,12 @@ li a {
 
 span {
   color: orange;
+}
+
+section .pourcentage {
+  border: 1px solid black;
+  height: 25px;
+  width: 57px;
 }
 
 #parag-1 {

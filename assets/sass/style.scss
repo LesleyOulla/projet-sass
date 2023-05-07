@@ -4,17 +4,22 @@
     box-sizing: border-box;
 }
 
-.pourc__corner {
-    color: green !important;
-}
-
 body{
     background-color: black important;
     .container{
         background-color:#fafafa;
+        
     }
 }
 
+section{
+    button{
+        background-color: #000;
+        color: white;
+        width: 140px;
+
+    }
+}
 .header{
     background: url('../images/background.jpg') repeat center center fixed; 
     background-size: cover; 
