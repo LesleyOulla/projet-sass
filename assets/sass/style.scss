@@ -3,19 +3,25 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    background-color: black !important;
 
+.pourc__corner {
+    color: green !important;
+}
+
+body{
+    background-color: black important;
     .container{
-        background-color: antiquewhite;
+        background-color:#fafafa;
     }
 }
+
 .header{
     background: url('../images/background.jpg') repeat center center fixed; 
     background-size: cover; 
     padding-left: 15%;
-    padding-right: 15%;   
+    padding-right: 15%;
 }
+
 ul{
     display: flex;
     justify-content: end;
@@ -30,6 +36,7 @@ ul{
         padding-left: 0 !important;
         }
 }
+
 li {
     list-style: none;
     margin: 0;
@@ -39,9 +46,19 @@ li {
         color: black;        
     }
   }
-  span{
+
+  span {
     color: orange;
   }
+  section{
+    .pourcentage {
+        border: 1px solid black;
+        height: 25px;
+        width: 57px;
+    }
+  }
+
+
 #parag-1{
     text-align: end;
     padding-right: 5px;
@@ -55,7 +72,8 @@ li {
         text-align: start;
         padding: 0;
     }
-  }
+}
+
 #logo{
     @media only screen and (max-width: 992px ){
         justify-content: center;
@@ -65,11 +83,13 @@ li {
         justify-content: center;
         display: flex;  
     }
-  }
+}
+
 #parag-0{
     font-size: 20px;
     width: 300px;
-  }
+}
+
 .parag0{
     @media only screen and (max-width: 992px ){
         justify-content: center;
@@ -81,7 +101,8 @@ li {
         display: flex;
         text-align: center;
     }
-  }
+}
+
 .footer{
     padding-top: 4%;  
     padding-bottom: 2%; 
@@ -108,7 +129,7 @@ li {
     border: 2px solid white;
 }
 
-.baniere{
+.baniere {
     background-color: white;
     color: #000;
     height: 40px ;
