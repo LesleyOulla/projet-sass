@@ -7,20 +7,47 @@
 body {
   background-color: black important;
 }
-body .container {
+body .container .bg__white {
   background-color: #fafafa;
 }
 
+section .pourcentage {
+  border: 1px solid black;
+  border-radius: 4px;
+  height: 30px;
+  width: 70px;
+  position: relative;
+  left: 70%;
+  top: 8%;
+  color: #D78F0B;
+  background-color: black;
+}
+section .text {
+  position: relative;
+  top: -8%;
+}
+section .top {
+  position: relative;
+  top: -6%;
+}
 section button {
   background-color: #000;
   color: white;
   width: 140px;
+  height: 30px;
+  border: none;
 }
 section .flex {
   display: flex;
 }
 section .flex p {
   color: #D78F0B;
+  position: relative;
+  left: 5%;
+  font-size: 21px;
+}
+section .flex s {
+  font-size: 21px;
 }
 
 .header {
@@ -61,22 +88,6 @@ li a {
 
 span {
   color: orange;
-}
-
-section .pourcentage {
-  border: 1px solid black;
-  border-radius: 4px;
-  height: 30px;
-  width: 70px;
-  position: relative;
-  left: 70%;
-  top: 8%;
-  color: #D78F0B;
-  background-color: black;
-}
-section .text {
-  position: relative;
-  top: -8%;
 }
 
 #parag-1 {
@@ -141,7 +152,7 @@ section .text {
   position: relative;
 }
 .footer p {
-  color: black;
+  color: white;
 }
 .footer .icons {
   display: inline-block;
@@ -162,7 +173,7 @@ hr {
   background-color: white;
   color: #000;
   height: 40px;
-  width: 400px;
+  width: 512px;
   display: flex;
   justify-content: space-around;
   align-items: center;
