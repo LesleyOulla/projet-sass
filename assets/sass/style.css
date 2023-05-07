@@ -16,6 +16,12 @@ section button {
   color: white;
   width: 140px;
 }
+section .flex {
+  display: flex;
+}
+section .flex p {
+  color: #D78F0B;
+}
 
 .header {
   background: url("../images/background.jpg") repeat center center fixed;
@@ -59,8 +65,18 @@ span {
 
 section .pourcentage {
   border: 1px solid black;
-  height: 25px;
-  width: 57px;
+  border-radius: 4px;
+  height: 30px;
+  width: 70px;
+  position: relative;
+  left: 70%;
+  top: 8%;
+  color: #D78F0B;
+  background-color: black;
+}
+section .text {
+  position: relative;
+  top: -8%;
 }
 
 #parag-1 {
@@ -123,6 +139,9 @@ section .pourcentage {
   text-align: center;
   color: white;
   position: relative;
+}
+.footer p {
+  color: black;
 }
 .footer .icons {
   display: inline-block;
